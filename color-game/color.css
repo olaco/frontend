@@ -1,0 +1,77 @@
+body {
+	background-color: #232323;; 
+	margin: 0;  /*Get rid of the black spaces*/
+	font-family: "Montserrat","Avenir";
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15px;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+#container {
+	margin: 0px auto;
+	max-width: 600px;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1; /*space betwween lines of text*/
+	padding: 20px 0;
+	color: white;
+	background: steelblue;
+	margin: 0; /*get rid of black space on both ends */
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+	margin-bottom: 4px;
+}
+
+/*adding a selcted class to the button that is selected*/
+.selected{
+	background: blue;
+}
+
+button{
+	border: none; 
+	background: none;
+	color: steelblue;
+	text-transform: uppercase;
+	height: 100%; /*make button take 100% space within its div*/
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 2.0s; /*create an animation to transit btw color and background*/ 
+    -webkit-transition: all 2.0s;
+    -moz-transition: all 2.0s;
+    outline: none; /*to turnoff outline on buttons*/
+
+}
+
+button:hover{
+	color: #fff;
+	background: steelblue;
+}

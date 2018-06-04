@@ -1,0 +1,39 @@
+
+body{
+ max-width: 660px;
+ margin: 50px;
+ background-color: #ececec;
+ font-family:'Modern Antiqua', cursive;
+ cursor: pointer;
+}
+
+h1{
+  padding-left: 10px;
+}
+
+li{
+	list-style: none;
+}
+
+.ulList{
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.liItems{padding-bottom: 10px;
+}
+	
+
+.container{
+border: 5px solid #fff;	
+border-radius: 20%;
+padding-left: 120px;
+padding-bottom: 8px
+}
+
+button{
+	background: steelblue;
+	color: #fff;
+	cursor: pointer;
+
+}
